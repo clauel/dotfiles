@@ -24,9 +24,6 @@ source "${ZSH}/oh-my-zsh.sh"
 # So instead of running `bin/rails` like the doc says, just run `rails`
 export PATH="./bin:${PATH}:/usr/local/sbin"
 
-# Add MySQL 5.6's mysql
-export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-
 # Store your own aliases in the ~/.aliases file and load the here.
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 
@@ -46,3 +43,13 @@ export NVM_DIR="$HOME/.nvm"
 export PKG_CONFIG_PATH=/usr/local/opt/imagemagick@6/lib/pkgconfig
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+export PATH="$PATH:/usr/local/bin"
+export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"

@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Colorsublime - Themes/TricolorLight.tmTheme",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -14,6 +14,7 @@
 		"node_modules",
 		"build"
 	],
+	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
@@ -27,7 +28,13 @@
 	],
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "Soda Light 3.sublime-theme",
+	"theme": "Boxy Ocean.sublime-theme",
+	"theme_bar": true,
+	"theme_bar_colored": true,
+	"theme_icons_atomized": true,
+	"theme_scrollbar_colored": true,
+	"theme_tab_selected_underlined": true,
+	"theme_unified": true,
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
