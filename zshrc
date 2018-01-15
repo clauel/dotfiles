@@ -53,3 +53,4 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 
 export PATH="$PATH:/usr/local/bin"
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
