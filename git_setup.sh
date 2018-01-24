@@ -9,7 +9,7 @@ git config --global user.name $full_name
 
 git add .
 git commit --message "My identity in the gitconfig"
-git push origin master
+git push -u origin linux
 
 git remote add upstream git@github.com:clauel/dotfiles.git
 

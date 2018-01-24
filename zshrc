@@ -7,7 +7,6 @@ ZSH_THEME="robbyrussell"
 # Oh My Zsh plugins
 plugins=(
   gitfast
-  brew
   nvm
   rbenv
   last-working-dir
@@ -34,23 +33,3 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 
 # Load z
 [[ -f "/usr/local/etc/profile.d/z.sh" ]] && source /usr/local/etc/profile.d/z.sh
-
-# Load nvm
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
-
-# Helps rmagick find imagemagick 6's pkgconfig on gem install
-export PKG_CONFIG_PATH=/usr/local/opt/imagemagick@6/lib/pkgconfig
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
-
-export PATH="$PATH:/usr/local/bin"
-export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
